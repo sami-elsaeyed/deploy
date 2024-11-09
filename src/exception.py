@@ -7,7 +7,7 @@ def error_message_detail(error,error_detail):
     file_name=exc_tb.tb_frame.f_code.co_filename
     line_number=exc_tb.tb_lineno
     error=str(error)
-    error_message=f"Error in file [{file_name}] line number [{line_number}] error message [{error}]"
+    error_message=f"Error in file [{file_name}] line number [{line_number}] error message: [{error}]"
 
     return error_message
 
