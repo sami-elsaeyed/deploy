@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-HYPHEN_E_DOT='-e .'
+HYPHEN_E_DOT = '-e .'
 def get_requirements(file_path):
     requirements=[]
     with open(file_path) as file_obj:
@@ -15,7 +15,7 @@ def get_requirements(file_path):
 
 setup(
     name='deploy',
-    version='0.01',
+    version='0.1',
     author='Sami',
     author_email='samiabdu.11377@gmail.com',
     packages=find_packages(),
