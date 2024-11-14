@@ -8,6 +8,7 @@ from src.pipeline.predict_pipeline import PredictPipeline, CustomData
 
 app=Flask(__name__)
 
+
 @app.route('/')
 def index():
     return render_template('index.html')
